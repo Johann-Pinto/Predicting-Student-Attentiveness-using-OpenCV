@@ -30,3 +30,7 @@ The model will predict if a student is attentive or not through facial parameter
 
 ##### Note : The face detector models used to run Drowsiness_Detection.py and headposedlib.py are given for reference.
 Both these programs can be run after the required libraries are installed. Both these programs will open a new window with your video capture through the webcam and will detect the face on the video. To exit these programs, press the ESC key. 
+
+## Contributors
+Johann Kyle Pinto
+Reg N0. : 20BKT0009
