@@ -19,7 +19,7 @@ The model will predict if a student is attentive or not through facial parameter
 6. [headposedlib.py](headposedlib.py) : This contains the main program for implementing Head Pose Estimation to predict Student Attentiveness.
 
 # Steps to run the Program :
-1. Install all the required library packages in your python environment using "pip install"
+1. Install all the required library packages in your python environment.
 2. Drowsiness_Detection.py can then be run. A new window will popup with your webcamera turning on. To exit the program , press the ESC key.
 3. Run cam_calibration.py, this will give the approximate focal length as output. This focal length has to be modified in the headposedlib.py for correct implementation.
 4. In headposedlib.py, modify the focal length 'f' to the nearest intger value received as output of the cam_calibration.py program.
@@ -31,6 +31,6 @@ The model will predict if a student is attentive or not through facial parameter
 ##### Note : The face detector models used to run Drowsiness_Detection.py and headposedlib.py are given for reference.
 Both these programs can be run after the required libraries are installed. Both these programs will open a new window with your video capture through the webcam and will detect the face on the video. To exit these programs, press the ESC key. 
 
-## Contributors
-Johann Kyle Pinto
+### Project Done By
+[Johann Kyle Pinto](https://github.com/Johann-Pinto)
 <br>Reg No. : 20BKT0009
