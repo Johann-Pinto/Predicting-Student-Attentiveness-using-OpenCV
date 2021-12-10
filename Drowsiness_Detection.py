@@ -76,7 +76,7 @@ while True:
 	cv2.putText(img, txt, (10, 325),
         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 	cv2.imshow("Frame",img)
-
+	#ESC key to exit
 	key = cv2.waitKey(10) & 0xFF
 	if key == 27:
 		break

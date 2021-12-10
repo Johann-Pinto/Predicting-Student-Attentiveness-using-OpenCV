@@ -50,6 +50,7 @@ with mp_face_detection.FaceDetection(
         cv2.putText(image, 'Face Not Detected', (20, 30),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 80), 2)
     cv2.imshow('MediaPipe Face Detection',image)
+    #ESC key to exit
     if cv2.waitKey(5) & 0xFF == 27:
       break
 cap.release()

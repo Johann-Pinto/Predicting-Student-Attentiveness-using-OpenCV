@@ -22,7 +22,7 @@ while True:
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 80), 2)
 	cv2.imshow("Frame", img)
 	key = cv2.waitKey(1) & 0xFF
-	#ESC key
+	#ESC key to exit
 	if key == 27:
 		break
 cv2.destroyAllWindows()
