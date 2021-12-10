@@ -1,7 +1,7 @@
 # Predicting-Student-Attentiveness-using-OpenCV
 The model will predict if a student is attentive or not through facial parameter received through the student's webcam using Face Detection, Drowsiness Detection, and Head Pose Estimation
 
-# Libraries Used (To be installed to execute program)
+## Libraries Used (To be installed to execute program)
 1. [cv2](https://pypi.org/project/opencv-python/)
 2. [dlib](http://dlib.net/)
 3. [numpy](https://numpy.org/install/)
@@ -9,7 +9,7 @@ The model will predict if a student is attentive or not through facial parameter
 5. [imutils](https://pypi.org/project/imutils/#files)
 6. [scipy](https://scipy.org/install/)
 
-# Information :
+## Information :
 1. [data](data) : The data folder contains test images for cam_calibration.py and a '.dat' file used for placing landmarks on the face using dlib library.
 2. [face detectors](face%20detectors) : This folder contains two face detector models that were used to implement Drowsiness Detection and Head Pose Estimation.
 3. [helpermod](helpermod) : This folder contains two helper modules used for implementing Head Pose Estimation.
@@ -18,7 +18,7 @@ The model will predict if a student is attentive or not through facial parameter
 5. [cam_calibration.py](cam_calibration.py) : This program is to be run before running headposedlib.py to implement Head Pose Estimation correctly.
 6. [headposedlib.py](headposedlib.py) : This contains the main program for implementing Head Pose Estimation to predict Student Attentiveness.
 
-# Steps to run the Program :
+## Steps to run the Program :
 1. Install all the required library packages in your python environment.
 2. Drowsiness_Detection.py can then be run. A new window will popup with the webcamera turning on and the video will displayed on this window. The program will detect face and check if the eyes are opened or closed to predict if the student is attentive or not attentive. To exit the program , press the ESC key.
 3. Run cam_calibration.py, this will give the approximate focal length as output. This focal length has to be modified in the headposedlib.py for correct implementation.
