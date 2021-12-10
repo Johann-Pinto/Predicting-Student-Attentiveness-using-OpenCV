@@ -8,6 +8,7 @@ The model will predict if a student is attentive or not through facial parameter
 4. [mediapipe](https://google.github.io/mediapipe/getting_started/install.html)
 5. [imutils](https://pypi.org/project/imutils/#files)
 6. [scipy](https://scipy.org/install/)
+7. [glob](https://docs.python.org/3/library/glob.html)
 
 ## Information :
 1. [data](data) : The data folder contains test images for cam_calibration.py and a '.dat' file used for placing landmarks on the face using dlib library.
