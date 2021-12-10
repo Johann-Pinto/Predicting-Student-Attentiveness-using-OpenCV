@@ -23,7 +23,9 @@ The model will predict if a student is attentive or not through facial parameter
 2. Drowsiness_Detection.py can then be run. A new window will popup with your webcamera turning on. To exit the program , press the ESC key.
 3. Run cam_calibration.py, this will give the approximate focal length as output. This focal length has to be modified in the headposedlib.py for correct implementation.
 4. In headposedlib.py, modify the focal length 'f' to the nearest intger value received as output of the cam_calibration.py program.
+
 ![image](https://user-images.githubusercontent.com/78135669/145556212-e2795a21-58cd-4875-a7ac-1782cf889519.png)
+
 5. After updating the focal length 'f', run headposedlib.py. A new window will popup with your webcamera turning on and your video will displayed on this window.To exit the program, press the ESC key.
 
 ##### Note : The face detector models used to run Drowsiness_Detection.py and headposedlib.py are given for reference.
